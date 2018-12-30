@@ -1,0 +1,31 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700|Roboto:300i,400');
+
+
+
+/*    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Kaushan Script', cursive;
+*/
+html {
+    font-size: 14px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color:#999;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat', sans-serif; 
+    color:#333;
+    
+}
+a {
+    text-decoration: none;
+}
+
+.pretitle {
+     font-family: 'Kaushan Script', cursive;
+     text-align: center;
+}
