@@ -18,8 +18,10 @@ p {
 }
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Montserrat', sans-serif; 
-    color:#333;
-    
+    color:#333;  
+}
+.montFamily {
+     font-family: 'Montserrat', sans-serif;
 }
 a {
     text-decoration: none;
@@ -28,4 +30,34 @@ a {
 .pretitle {
      font-family: 'Kaushan Script', cursive;
      text-align: center;
+}
+
+/*HEADER*/
+header {
+    color:#fff !important;
+}
+.navbar li{
+    text-align:  center;
+    border-bottom: 1px dotted #fff;
+}
+.navbar li:last-of-type {
+    border-bottom:none;
+}
+.navbar li.active .nav-link,
+.navbar li .nav-link:hover {
+    color:#FCE38A !important;
+    border-bottom: 2px solid #FCE38A;
+}
+.navbar-brand {
+    font-size: 2rem;
+}
+.navbar .nav-link{
+    font-size:0.9rem;
+   
+}
+.navbar-light .navbar-toggler {
+    border-color: #fff;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(256,256, 256)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }

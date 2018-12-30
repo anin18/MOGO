@@ -9,20 +9,31 @@ and open the template in the editor.
 */
 
 @media(min-width:576px) {
-    
-    
+    .navbar li{
+    border-bottom: none;
+    }
     
 }
 
 @media(min-width:768px) {
-    
-    
+    .navbar li{
+        padding: 0 8px;
+}
+    .navbar-brand {
+    font-size: 2.1rem;
+}
+.navbar .nav-link{
+    font-size:1rem;
+   
+}
     
 }
 
 @media(min-width:992px) {
     
-    
+     .navbar li{
+        padding: 0 20px;
+}
     
 }
 
