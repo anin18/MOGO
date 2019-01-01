@@ -206,3 +206,11 @@ header {
 .services article h6 {
     text-transform: uppercase;
 }
+
+/*DESIGN SECTION*/
+.design .photos .mobile {
+    position: absolute;
+   bottom:-18%;
+    left:60%;
+    
+}
