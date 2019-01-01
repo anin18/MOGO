@@ -60,6 +60,9 @@ a {
 .lightGreen {
     background-color:#95E1D3;
 }
+.bg-light-pink {
+    background-color: #F8F8F8;
+}
 /*HEADER*/
 header {
     color:#fff !important;
@@ -233,4 +236,51 @@ header {
 .ourWork .card-header {
     background-color: #fff;
     margin-bottom: 10pxb!important;
+}
+/*SPEECH SECTION*/
+.speech .leftAngle {
+     top:50%;
+     left:5%;
+}
+.speech .rightAngle{
+    top:50%;
+    right: 5%;
+}
+.speech .leftAngle a,
+.speech .rightAngle a{
+    font-size: 1.5rem;
+    color:#ccc;
+}
+
+
+
+.speech aside a {
+    text-decoration: none;
+    font-size: 4rem;
+    color:#95E1D3;
+    border: 3px solid #95E1D3;
+    padding: 25px;
+}
+.speech article p {
+    font-weight: 300;
+    font-size: 1rem;
+    padding: 0 30px;
+   
+}
+.speech h4 {
+    margin-left: 110px;
+}
+.speech .pretitle:before {
+    content: '';
+    display: block;
+    height: 3px;
+    background-color:#F38181;
+    width:60px;
+    justify-content: center;
+    margin: 1rem 0;
+    position: absolute;
+    top:80%;
+    left:10%;
+    
+
 }

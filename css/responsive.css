@@ -25,6 +25,12 @@
     .achievement article {
         margin: 0 30px;
     }
+    
+
+
+    
+    
+    
 
 }
 
@@ -70,10 +76,33 @@
         font-size:1.4rem;
     }
     .story .hover h6 {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
   
+    .speech .row {
+    margin-left: 65px;
+}
+.speech article {
+    margin-left: 50px;
+}
+.speech aside a {
+  
+    padding: 45px;
+}
+.speech article p {
+    font-size: 1.2rem;
+     text-align: left;
+}
+.speech h4 {
+    margin-left: 110px;
+}
+.speech .pretitle:before {
+    content: '';
+    top:75%;
+    left:20%;
+    
 
+}
     
     
 }
@@ -136,6 +165,30 @@
       .achievement article h2 {
         font-size: 5rem;
     }
+    
+
+    .speech .row {
+    margin-left: 95px;
+}
+
+.speech aside a {
+    padding: 45px;
+}
+.speech article p {
+    font-size: 1.6rem;
+    
+}
+.speech h4 {
+    margin-left: 120px;
+}
+.speech .pretitle:before {
+    content: '';
+    top:75%;
+    left:12%;
+    
+
+}
+    
 
     
 }
