@@ -1,7 +1,7 @@
 
 @media(min-width:576px) {
     .navbar li .nav-link{
-    border-bottom: none !important;
+        border-bottom: none !important;
     }
     div.collapse {
         background: none !important;
@@ -11,7 +11,7 @@
     }
     .lead h2 {
         font-size:3rem;
-      
+
     }
     .lead h1 {
         font-size: 5rem;
@@ -21,6 +21,9 @@
     }
     .lead .learn {
         margin-bottom: 5rem !important;
+    }  
+    .achievement article {
+        margin: 0 30px;
     }
 
 }
@@ -28,20 +31,20 @@
 @media(min-width:768px) {
     .navbar li{
         padding: 0 8px;
-}
+    }
     .navbar-brand {
-    font-size: 2.1rem;
-}
-.navbar .nav-link{
-    font-size:1rem;
-   
-}
-.lead {
+        font-size: 2.1rem;
+    }
+    .navbar .nav-link{
+        font-size:1rem;
+
+    }
+    .lead {
         padding-top: 160px!important;
     }
     .lead h2 {
         font-size:4rem;
-      
+
     }
     .lead h1 {
         font-size: 8rem;
@@ -50,22 +53,27 @@
     .lead .learn {
         margin-bottom: 8rem !important;
     }
-   .lead .lines h6 {
-   font-size: 1.5rem;
-    text-align: left;
-}
-.story {
-    padding:80px 0 90px!important;
-}
-.story .par_story {
-    margin-bottom: 85px !important;
-}
-.story .hover .fa{
-    font-size:1.4rem;
-}
-.story .hover h6 {
-    font-size: 1.2rem;
-}
+    .lead .lines h6 {
+        font-size: 1.5rem;
+        text-align: left;
+    }
+    .story, 
+    .services{
+        padding:80px 0 90px!important;
+    }
+    .story .par_story {
+        margin-bottom: 85px !important;
+    }
+    .story .hover .fa{
+        font-size:1.4rem;
+    }
+    .story .hover h6 {
+        font-size: 1.2rem;
+    }
+  
+
+    
+    
 }
 
 
@@ -73,13 +81,13 @@
 
 
 @media(min-width:992px) {
-    
-     .navbar li{
+
+    .navbar li{
         padding: 0 20px;
-}
-        .lead h2 {
+    }
+    .lead h2 {
         font-size:5.5rem;
-      
+
     }
     .lead h1 {
         font-size: 10rem;
@@ -88,25 +96,50 @@
         margin-bottom: 11rem !important;
     }
     .lead .lines h6 {
-   font-size: 1.7rem;
-    text-align: left;
-}
-.story {
-    padding:100px 0 110px!important;
-}
-.story .hover .fa{
-    font-size: 2rem;
-}
-.story .hover h6 {
-    font-size: 1.4rem;
-}
-}
+        font-size: 1.7rem;
+        text-align: left;
+    }
+    .story,
+    .services{
+        padding:100px 0 110px !important;
+    }
+    .story .hover .fa{
+        font-size: 2rem;
+    }
+    .story .hover h6 {
+        font-size: 1.4rem;
+    }
+    .achievement article {
+        border-bottom: 0;   
+        margin: 0;
+        
+    }
+    .achievement div div div:last-of-type article {
+       margin-right: -80px;
+      
+    }
+      .achievement div div div:first-of-type article {
+        margin-left:  -100px;
+       
+    }
+    .achievement article {
+        border-right: 1px solid #fff;
+        margin-right: -25px;
+    }
+    .achievement div div div:last-of-type article{
+        border-right: 0;
+    }
+    
+      .achievement article h2 {
+        font-size: 5rem;
+    }
 
-
+    
+}
 @media(min-width:1200px) {
 
     .story .hover h6 {
-    font-size: 1.7rem;
-}
-    
+        font-size: 1.7rem;
+    }
+
 }
