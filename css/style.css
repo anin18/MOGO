@@ -214,3 +214,23 @@ header {
     left:60%;
     
 }
+/*OUR WORK SECTION*/
+.ourWork .collapseTitle .fa {
+    color:#95E1D3;
+    font-size: 2rem;
+    margin-right: 15px;
+    
+}
+.ourWork .collapseTitle h6{
+    display: inline;
+    text-decoration: none;
+}
+.ourWork .card-body {
+    color:#999;
+    font-style:italic;
+    font-weight: 300;
+}
+.ourWork .card-header {
+    background-color: #fff;
+    margin-bottom: 10pxb!important;
+}

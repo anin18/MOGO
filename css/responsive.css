@@ -58,10 +58,12 @@
         text-align: left;
     }
     .story, 
-    .services{
+    .services,
+    .ourWork{
         padding:80px 0 90px!important;
     }
-    .story .par_story {
+    .story .par_after,
+    .ourWork .par_after{
         margin-bottom: 85px !important;
     }
     .story .hover .fa{
@@ -100,7 +102,8 @@
         text-align: left;
     }
     .story,
-    .services{
+    .services,
+    .ourWork{
         padding:100px 0 110px !important;
     }
     .story .hover .fa{
