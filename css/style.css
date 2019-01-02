@@ -238,21 +238,23 @@ header {
     margin-bottom: 10pxb!important;
 }
 /*SPEECH SECTION*/
-.speech .leftAngle {
+.speech .leftAngle,
+.joshua .leftAngle{
      top:50%;
      left:5%;
 }
-.speech .rightAngle{
+.speech .rightAngle,
+.joshua .rightAngle{
     top:50%;
     right: 5%;
 }
 .speech .leftAngle a,
-.speech .rightAngle a{
-    font-size: 1.5rem;
+.speech .rightAngle a,
+.joshua .leftAngle a,
+.joshua .rightAngle a {
+    font-size: 1.6rem;
     color:#ccc;
 }
-
-
 
 .speech aside a {
     text-decoration: none;
@@ -261,16 +263,19 @@ header {
     border: 3px solid #95E1D3;
     padding: 25px;
 }
-.speech article p {
+.speech article p,
+.joshua article p{
     font-weight: 300;
     font-size: 1rem;
     padding: 0 30px;
    
 }
-.speech h4 {
+.speech h4,
+.joshua h4{
     margin-left: 110px;
 }
-.speech .pretitle:before {
+.speech .pretitle:before,
+.joshua .pretitle:before{
     content: '';
     display: block;
     height: 3px;
@@ -366,3 +371,8 @@ header {
     display: block;
 }
 
+/*JOSHUA SECTION*/
+
+.joshua .row .col-md-8 {
+    margin-right:0;
+}

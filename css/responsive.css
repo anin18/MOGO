@@ -25,12 +25,12 @@
     .achievement article {
         margin: 0 30px;
     }
-    
 
 
-    
-    
-    
+
+
+
+
 
 }
 
@@ -67,8 +67,11 @@
     .services,
     .ourWork,
     .team,
-    .gallery {
+    .joshua {
         padding:80px 0 90px!important;
+    }
+    .gallery {
+        padding-top: 80px !important;
     }
     .story .par_after,
     .ourWork .par_after,
@@ -82,33 +85,35 @@
     .story .hover h6 {
         font-size: 1.1rem;
     }
-  
-    .speech .row {
-    margin-left: 65px;
-}
-.speech article {
-    margin-left: 50px;
-}
-.speech aside a {
-  
-    padding: 45px;
-}
-.speech article p {
-    font-size: 1.2rem;
-     text-align: left;
-}
-.speech h4 {
-    margin-left: 110px;
-}
-.speech .pretitle:before {
-    content: '';
-    top:75%;
-    left:20%;
-    
 
-}
-    
-    
+    .speech .row,
+    .joshua .row{
+        margin-left: 65px;
+    }
+    .speech article{
+        margin-left: 50px;
+    }
+    .speech aside a{
+        padding: 45px;
+    }
+    .speech article p,
+    .joshua article p{
+        font-size: 1.2rem;
+        text-align: left;
+    }
+    .speech h4{
+        margin-left: 110px;
+    }
+    .speech .pretitle:before,
+    .joshua .pretitle:before{
+        content: '';
+        top:75%;
+        left:15%;
+    }
+    .joshua figure {
+        font-size: 4rem;
+    }
+
 }
 
 
@@ -138,8 +143,11 @@
     .services,
     .ourWork,
     .team,
-    .gallery{
+    .joshua{
         padding:100px 0 110px !important;
+    }
+    .gallery {
+        padding-top:100px !important;
     }
     .story .hover .fa{
         font-size: 2rem;
@@ -150,15 +158,15 @@
     .achievement article {
         border-bottom: 0;   
         margin: 0;
-        
+
     }
     .achievement div div div:last-of-type article {
-       margin-right: -80px;
-      
+        margin-right: -80px;
+
     }
-      .achievement div div div:first-of-type article {
+    .achievement div div div:first-of-type article {
         margin-left:  -100px;
-       
+
     }
     .achievement article {
         border-right: 1px solid #fff;
@@ -167,40 +175,50 @@
     .achievement div div div:last-of-type article{
         border-right: 0;
     }
-    
-      .achievement article h2 {
+
+    .achievement article h2 {
         font-size: 5rem;
     }
-    
 
-    .speech .row {
-    margin-left: 95px;
+
+    .speech .row,
+    .joshua .row{
+        margin-left: 95px;
+    }
+
+    .speech article p,
+    .joshua article p{
+        font-size: 1.6rem;
+
+    }
+    .speech h4,
+    .joshua h4{
+        margin-left: 120px;
+    }
+    .speech .pretitle:before,
+    .joshua .pretitle:before{
+        content: '';
+        top:75%;
+        left:12%;
+
+
+    }
+
+
+
 }
 
-.speech aside a {
-    padding: 45px;
-}
-.speech article p {
-    font-size: 1.6rem;
-    
-}
-.speech h4 {
-    margin-left: 120px;
-}
-.speech .pretitle:before {
-    content: '';
-    top:75%;
-    left:12%;
-    
-
-}
-    
-
-    
-}
 @media(min-width:1200px) {
 
     .story .hover h6 {
         font-size: 1.7rem;
+    }
+   
+    .joshua .pretitle:before{
+        content: '';
+        top:70%;
+        left:10%;
+
+
     }
 }
