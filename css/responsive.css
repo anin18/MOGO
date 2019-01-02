@@ -66,12 +66,14 @@
     .story, 
     .services,
     .ourWork,
-    .team {
+    .team,
+    .gallery {
         padding:80px 0 90px!important;
     }
     .story .par_after,
     .ourWork .par_after,
-    .team .par_after {
+    .team .par_after,
+    .gallery .par_after {
         margin-bottom: 85px !important;
     }
     .story .hover .fa{
@@ -135,7 +137,8 @@
     .story,
     .services,
     .ourWork,
-    .team {
+    .team,
+    .gallery{
         padding:100px 0 110px !important;
     }
     .story .hover .fa{
