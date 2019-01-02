@@ -398,3 +398,51 @@ header {
     left:50%;
     transform: translate(-50%);
 }
+/*BLOG SECTION*/
+.blog img {
+    display: block;
+    width: 100%;
+}
+.blog .date {
+    bottom:5%;
+    left:-5%;
+    background-color: #95E1D3;
+    padding:10px 15px;
+}
+
+.blog .date h2,
+.blog .date h6 {
+    color:#fff;
+    margin-bottom: 0;
+}
+.blog article hr {
+    color:#E5E5E5;
+}
+.blog article .fa {
+    color:#95E1D3;
+    text-decoration: none;
+    font-size: 16px;
+}
+.blog article span {
+    font-style: italic;
+    font-weight: 300;
+    color:#999;
+}
+.blog .blog-numbers .fa:first-of-type{
+    left:0%;
+}
+.blog .blog-numbers span:first-of-type {
+    left:5%;
+}
+.blog .blog-numbers .fa:last-of-type{
+    left:20%;
+}
+.blog .blog-numbers span:last-of-type {
+    left:25%;
+}
+.blog article .line {
+    top:100%;
+    color:red;
+    width: 100%;
+   
+}

@@ -73,7 +73,8 @@
     .ourWork,
     .team,
     .joshua,
-    .clients{
+    .clients,
+    .blog{
         padding:80px 0 90px!important;
     }
     .gallery {
@@ -119,6 +120,27 @@
     .joshua figure {
         font-size: 4rem;
     }
+    
+    
+    .blog .blog-numbers .fa:first-of-type{
+    left:0%;
+}
+.blog .blog-numbers span:first-of-type {
+    left:10%;
+}
+.blog .blog-numbers .fa:last-of-type{
+    left:30%;
+}
+.blog .blog-numbers span:last-of-type {
+    left:40%;
+}
+.blog article p,
+.blog article h6{
+    font-size: 12px;
+}
+    
+    
+    
 
 }
 
@@ -150,7 +172,8 @@
     .ourWork,
     .team,
     .joshua,
-    .clients{
+    .clients,
+    .blog{
         padding:100px 0 110px !important;
     }
     .gallery {
@@ -210,6 +233,24 @@
 
 
     }
+.blog .blog-numbers .fa:first-of-type{
+    left:0%;
+}
+.blog .blog-numbers span:first-of-type {
+    left:7%;
+}
+.blog .blog-numbers .fa:last-of-type{
+    left:25%;
+}
+.blog .blog-numbers span:last-of-type {
+    left:32%;
+}
+
+
+.blog article h6{
+    font-size: 14px;
+}
+
 
 
 
@@ -226,6 +267,9 @@
         top:70%;
         left:10%;
 
-
     }
+    .blog article p{
+    font-size: 14px;
+}
+
 }
