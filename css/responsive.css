@@ -138,8 +138,12 @@
 .blog article h6{
     font-size: 12px;
 }
-    
-    
+.map {
+    padding: 60px 0 !important;
+}
+.map .titleRed {
+    font-size: 1.75rem;
+}
     
 
 }
