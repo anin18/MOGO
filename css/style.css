@@ -376,3 +376,25 @@ header {
 .joshua .row .col-md-8 {
     margin-right:0;
 }
+/*CLIENTS SECTION*/
+.clients  figure img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+.clients article .posttitle {
+    font-weight: 300;
+    color:#333;
+}
+.clients .posttitle:after {
+    content: '';
+    display: block;
+    height: 3px;
+    background-color:#F38181;
+    width:60px;
+    justify-content: center;
+    position: absolute;
+    top:45%;
+    left:50%;
+    transform: translate(-50%);
+}
