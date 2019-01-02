@@ -321,3 +321,12 @@ header {
    background-color:#F38181;
    color:#fff;
 }
+
+/*BRANDS SECTION*/
+.brands figure img {
+    display: inline-block;
+   padding-right: 30px;
+}
+.brands figure img:last-of-type {
+    padding-right:5px;
+}
