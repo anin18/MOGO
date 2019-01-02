@@ -144,7 +144,14 @@
 .map .titleRed {
     font-size: 1.75rem;
 }
-    
+
+.subscribe {
+    padding-top:70px!important;
+}
+
+footer {
+    padding:0.8rem 0 1rem !important;
+}
 
 }
 
