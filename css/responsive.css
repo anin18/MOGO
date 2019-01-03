@@ -11,7 +11,6 @@
     }
     .lead h2 {
         font-size:3rem;
-
     }
     .lead h1 {
         font-size: 5rem;
@@ -32,12 +31,9 @@
         content:'';
         left:8%;
     }
-
-
-
-
-
 }
+
+
 
 @media(min-width:768px) {
     .navbar li{
@@ -48,14 +44,12 @@
     }
     .navbar .nav-link{
         font-size:1rem;
-
     }
     .lead {
         padding-top: 160px!important;
     }
     .lead h2 {
         font-size:4rem;
-
     }
     .lead h1 {
         font-size: 8rem;
@@ -68,22 +62,13 @@
         font-size: 1.5rem;
         text-align: left;
     }
-    .story, 
-    .services,
-    .ourWork,
-    .team,
-    .joshua,
-    .clients,
-    .blog{
+    .secFrame{
         padding:80px 0 90px!important;
     }
     .gallery {
         padding-top: 80px !important;
     }
-    .story .par_after,
-    .ourWork .par_after,
-    .team .par_after,
-    .gallery .par_after {
+    .par_after {
         margin-bottom: 85px !important;
     }
     .story .hover .fa{
@@ -111,8 +96,8 @@
     .speech h4{
         margin-left: 110px;
     }
-    .speech .pretitle:before,
-    .joshua .pretitle:before{
+
+    .pretitleLine:before{
         content: '';
         top:75%;
         left:15%;
@@ -120,43 +105,36 @@
     .joshua figure {
         font-size: 4rem;
     }
-    
-    
     .blog .blog-numbers .fa:first-of-type{
-    left:0%;
-}
-.blog .blog-numbers span:first-of-type {
-    left:10%;
-}
-.blog .blog-numbers .fa:last-of-type{
-    left:30%;
-}
-.blog .blog-numbers span:last-of-type {
-    left:40%;
-}
-.blog article p,
-.blog article h6{
-    font-size: 12px;
-}
-.map {
-    padding: 60px 0 !important;
-}
-.map .titleRed {
-    font-size: 1.75rem;
-}
+        left:0%;
+    }
+    .blog .blog-numbers span:first-of-type {
+        left:10%;
+    }
+    .blog .blog-numbers .fa:last-of-type{
+        left:30%;
+    }
+    .blog .blog-numbers span:last-of-type {
+        left:40%;
+    }
+    .blog article p,
+    .blog article h6{
+        font-size: 12px;
+    }
+    .map {
+        padding: 60px 0 !important;
+    }
+    .map .titleRed {
+        font-size: 1.75rem;
+    }
+    .subscribe {
+        padding-top:70px!important;
+    }
 
-.subscribe {
-    padding-top:70px!important;
+    footer {
+        padding:0.8rem 0 1rem !important;
+    }
 }
-
-footer {
-    padding:0.8rem 0 1rem !important;
-}
-
-}
-
-
-
 
 
 @media(min-width:992px) {
@@ -166,7 +144,6 @@ footer {
     }
     .lead h2 {
         font-size:5.5rem;
-
     }
     .lead h1 {
         font-size: 10rem;
@@ -178,13 +155,7 @@ footer {
         font-size: 1.7rem;
         text-align: left;
     }
-    .story,
-    .services,
-    .ourWork,
-    .team,
-    .joshua,
-    .clients,
-    .blog{
+    .secFrame {
         padding:100px 0 110px !important;
     }
     .gallery {
@@ -199,15 +170,12 @@ footer {
     .achievement article {
         border-bottom: 0;   
         margin: 0;
-
     }
     .achievement div div div:last-of-type article {
         margin-right: -80px;
-
     }
     .achievement div div div:first-of-type article {
         margin-left:  -100px;
-
     }
     .achievement article {
         border-right: 1px solid #fff;
@@ -216,71 +184,58 @@ footer {
     .achievement div div div:last-of-type article{
         border-right: 0;
     }
-
     .achievement article h2 {
         font-size: 5rem;
     }
-
-
     .speech .row,
     .joshua .row{
         margin-left: 95px;
     }
-
     .speech article p,
     .joshua article p{
         font-size: 1.6rem;
-
     }
     .speech h4,
     .joshua h4{
         margin-left: 120px;
     }
-    .speech .pretitle:before,
-    .joshua .pretitle:before{
+    .speech .pretitleLine:before,
+    .joshua .pretitleLine:before{
         content: '';
         top:75%;
         left:12%;
-
-
     }
-.blog .blog-numbers .fa:first-of-type{
-    left:0%;
-}
-.blog .blog-numbers span:first-of-type {
-    left:7%;
-}
-.blog .blog-numbers .fa:last-of-type{
-    left:25%;
-}
-.blog .blog-numbers span:last-of-type {
-    left:32%;
-}
-
-
-.blog article h6{
-    font-size: 14px;
-}
-
-
-
+    .blog .blog-numbers .fa:first-of-type{
+        left:0%;
+    }
+    .blog .blog-numbers span:first-of-type {
+        left:7%;
+    }
+    .blog .blog-numbers .fa:last-of-type{
+        left:25%;
+    }
+    .blog .blog-numbers span:last-of-type {
+        left:32%;
+    }
+    .blog article h6{
+        font-size: 14px;
+    }
 
 }
+
 
 @media(min-width:1200px) {
 
     .story .hover h6 {
         font-size: 1.7rem;
     }
-   
-    .joshua .pretitle:before{
+    .joshua .pretitleLine:before{
         content: '';
         top:70%;
         left:10%;
-
     }
     .blog article p{
-    font-size: 14px;
-}
+        font-size: 14px;
+    }
 
 }

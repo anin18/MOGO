@@ -1,12 +1,6 @@
 /*fonts*/
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700|Roboto:300i,400');
 
-
-
-/*    font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Kaushan Script', cursive;
-*/
 html {
     font-size: 14px;
 }
@@ -23,16 +17,16 @@ h1,h2,h3,h4,h5,h6 {
     color:#333;  
 }
 .montFamily {
-     font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
-a {
-    text-decoration: none;
+a, .fa {
+    text-decoration: none !important;
 }
 
 .pretitle {
-     font-family: 'Kaushan Script', cursive;
-     text-align: center;
-     font-size: 1.7rem;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    font-size: 1.7rem;
 }
 .title {
     text-transform:uppercase;
@@ -66,7 +60,6 @@ a {
     left:50%;
     transform: translate(-50%);
 }
-
 .lightGreen {
     background-color:#95E1D3;
 }
@@ -149,22 +142,26 @@ header {
     position: absolute;
     top:-23%;
     left:2.5%;
-    
 }
+.lead .learn .btn:hover {
+    border-color: rgba(244, 83, 66,0.8);
+    background-color: #fff;
+    color:rgba(244, 83, 66,0.8)!important;
+}
+
 /*STORY SECTION*/
 .story  img{
     display: block;
     width: 100%;
 }
-
 .story .hover{
     width: 100%;
     height: 100%;
     top:0%;
     left:0%;
-   background-image: linear-gradient(to bottom, rgba(244, 83, 66, 0.8), rgba(249, 230, 17, 0.8));
+    background-image: linear-gradient(to bottom, rgba(244, 83, 66, 0.8), rgba(249, 230, 17, 0.8));
     box-shadow: 10px 10px #95E1D3;
-   display: none;
+    display: none;
 }
 .story .hover-items {
     top:50%;
@@ -175,13 +172,12 @@ header {
 
 .story .hover .fa{
     color:#fff;
-    text-decoration: none;
     font-size: 1.6rem;
 }
-.story .hover h6 {
+.story .hover h6 a{
     font-size: 1.7rem;
+    color:#fff;
 }
-
 .story figure:hover .hover {
     display: block;
 }
@@ -190,7 +186,7 @@ header {
 .achievement .container {
     border-left: 1px solid #fff;
     border-right: 1px solid #fff;
-  }
+}
 .achievement article {
     padding: 90px 0px;
     border-bottom: 1px solid #fff;
@@ -213,30 +209,33 @@ header {
     text-align: center;
 }
 .services aside a {
-   color:#95E1D3 !important;
+    color:#95E1D3 !important;
     font-size: 2.2rem;
 }
-.services article h6 {
+.services article h6,
+.services aside{
     text-transform: uppercase;
+    padding-top: 15px;
+}
+.services .row .row:hover {
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
 }
 
 /*DESIGN SECTION*/
 .design .photos .mobile {
     position: absolute;
-   bottom:-18%;
+    bottom:-18%;
     left:60%;
-    
 }
 /*OUR WORK SECTION*/
-.ourWork .collapseTitle .fa {
-    color:#95E1D3;
+.ourWork .fa {
+    color:#95E1D3 !important;
     font-size: 2rem;
     margin-right: 15px;
-    
+
 }
-.ourWork .collapseTitle h6{
+.ourWork h6{
     display: inline;
-    text-decoration: none;
 }
 .ourWork .card-body {
     color:#999;
@@ -250,8 +249,8 @@ header {
 /*SPEECH SECTION*/
 .speech .leftAngle,
 .joshua .leftAngle{
-     top:50%;
-     left:5%;
+    top:50%;
+    left:5%;
 }
 .speech .rightAngle,
 .joshua .rightAngle{
@@ -278,14 +277,13 @@ header {
     font-weight: 300;
     font-size: 1rem;
     padding: 0 30px;
-   
 }
 .speech h4,
 .joshua h4{
     margin-left: 110px;
 }
-.speech .pretitle:before,
-.joshua .pretitle:before{
+.speech .pretitleLine:before,
+.joshua .pretitleLine:before{
     content: '';
     display: block;
     height: 3px;
@@ -296,7 +294,6 @@ header {
     position: absolute;
     top:80%;
     left:10%;
-    
 
 }
 /*TEAM SECTION*/
@@ -333,14 +330,14 @@ header {
     border-right: 1px solid #F38181;
 }
 .team .hover-items .fa:hover {
-   background-color:#F38181;
-   color:#fff;
+    background-color:#F38181;
+    color:#fff;
 }
 
 /*BRANDS SECTION*/
 .brands figure img {
     display: inline-block;
-   padding-right: 30px;
+    padding-right: 30px;
 }
 .brands figure img:last-of-type {
     padding-right:5px;
@@ -433,6 +430,9 @@ header {
     text-decoration: none;
     font-size: 16px;
 }
+.blog article h6 a {
+    color:#333;
+}
 .blog article span {
     font-style: italic;
     font-weight: 300;
@@ -454,7 +454,10 @@ header {
     top:100%;
     color:red;
     width: 100%;
-   
+
+}
+.blog article:hover {
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
 }
 /*MAP SECTION*/
 .map .fa {
@@ -462,21 +465,27 @@ header {
     text-decoration: none;
     color:#F38181;
 }
+.map a {
+    color:#F38181;
+}
 
 /*SECTION SUBSCRIBE*/
 .subscribe {
     background-color: #F8F8F8;
 }
-.subscribe article h2 {
+.subscribe .subscribe-items-1 h2 {
     font-size: 2.5rem;
     color:#ccc;
     font-weight: bold;
 }
-.subscribe article .fa {
+.subscribe .subscribe-items-1 .fa {
     text-decoration: none;
     color:#95E1D3;
     font-size: 16px;
     padding: 0 4px;
+}
+.subscribe .subscribe-items-1 .fa:hover {
+    color:#55f4d7;
 }
 .subscribe article form span {
     color:#fff;
@@ -484,28 +493,49 @@ header {
     font-weight: bold;
     padding: 0 30px;
 }
-
-.subscribe .subscribe-items-2 h6 {
+.subscribe article form span:hover {
+    background-color:#55f4d7;
+}
+.subscribe .subscribe-items-2 h6 a {
+    color:#333;
     font-size: 12px;
     text-transform: uppercase;
 }
+.subscribe .subscribe-items-2 figure:hover img{
+    opacity:0.3;
+}
 .subscribe .subscribe-items-3 figure img {
     display: block;
-    width:100%;
-   
+    width:100%; 
 }
 .subscribe .subscribe-items-3 figure {
-     margin:5px;
+    margin:5px;
 }
-
+.subscribe .subscribe-items-3 p a{
+    color:#999;
+}
+.subscribe .subscribe-items-3 p:hover a{
+    color:#333;
+}
 .subscribe .subscribe-items-3 .row div {
-   padding:0;
+    padding:0;
 }
 
+.subscribe .subscribe-items-3 figure{
+    overflow: hidden;
+}
+
+.subscribe .subscribe-items-3 figure img{
+    transition: 0.5s linear;
+}
+
+.subscribe .subscribe-items-3 figure:hover img {
+    transform: scale(1.1);
+}
 /*FOTER*/
 footer {
     background-color: #F8F8F8;
-   
+
 }
 
 footer span {
