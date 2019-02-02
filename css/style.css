@@ -104,11 +104,15 @@ header {
 
 /*MAIN STARTS HERE*/
 
-/*LEAD SECTION*/
-.lead a.btn {
+/*LEADING SECTION*/
+.leading {
+    background-size: cover; 
+    background-position:center;
+}
+.leadinging a.btn {
     border:3px solid #fff;
 }
-.lead h1::after {
+.leadinging h1::after {
     content: '';
     display: block;
     height: 3px;
@@ -121,17 +125,17 @@ header {
     left:50%;
     transform: translate(-50%)
 }
-.lead .lines h6 {
+.leading .lines h6 {
     border-top: 3px solid rgba(256,256,256,0.5);
     color:rgba(256,256,256,0.7);
     line-height:50px;
     text-align: center;
 }
-.lead .lines h6.active {
+.leading .lines h6.active {
     border-top: 3px solid #fff;
     color:#fff;
 }
-.lead .lines h6.active::before {
+.leading .lines h6.active::before {
     content: '';
     display: block;
     height: 3px;
@@ -143,7 +147,7 @@ header {
     top:-23%;
     left:2.5%;
 }
-.lead .learn .btn:hover {
+.leading .learn .btn:hover {
     border-color: rgba(244, 83, 66,0.8);
     background-color: #fff;
     color:rgba(244, 83, 66,0.8)!important;
@@ -438,23 +442,10 @@ header {
     font-weight: 300;
     color:#999;
 }
-.blog .blog-numbers .fa:first-of-type{
-    left:0%;
-}
-.blog .blog-numbers span:first-of-type {
-    left:5%;
-}
-.blog .blog-numbers .fa:last-of-type{
-    left:20%;
-}
-.blog .blog-numbers span:last-of-type {
-    left:25%;
-}
 .blog article .line {
     top:100%;
     color:red;
     width: 100%;
-
 }
 .blog article:hover {
     box-shadow: 5px 5px 10px rgba(0,0,0,0.2);

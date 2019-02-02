@@ -6,19 +6,19 @@
     div.collapse {
         background: none !important;
     }
-    .lead {
+    .leading {
         padding-top: 100px !important;
     }
-    .lead h2 {
+    .leading h2 {
         font-size:3rem;
     }
-    .lead h1 {
+    .leading h1 {
         font-size: 5rem;
     }
-    .lead .div.lines {
+    .leading .div.lines {
         margin-top: 100px !important;
     }
-    .lead .learn {
+    .leading .learn {
         margin-bottom: 5rem !important;
     }  
     .achievement article {
@@ -45,20 +45,20 @@
     .navbar .nav-link{
         font-size:1rem;
     }
-    .lead {
+    .leading {
         padding-top: 160px!important;
     }
-    .lead h2 {
+    .leading h2 {
         font-size:4rem;
     }
-    .lead h1 {
+    .leading h1 {
         font-size: 8rem;
         padding-bottom: 7rem!important;
     }
-    .lead .learn {
+    .leading .learn {
         margin-bottom: 8rem !important;
     }
-    .lead .lines h6 {
+    .leading .lines h6 {
         font-size: 1.5rem;
         text-align: left;
     }
@@ -142,16 +142,16 @@
     .navbar li{
         padding: 0 20px;
     }
-    .lead h2 {
+    .leading h2 {
         font-size:5.5rem;
     }
-    .lead h1 {
+    .leading h1 {
         font-size: 10rem;
     }
-    .lead .learn {
+    .leading .learn {
         margin-bottom: 11rem !important;
     }
-    .lead .lines h6 {
+    .leading .lines h6 {
         font-size: 1.7rem;
         text-align: left;
     }
@@ -171,15 +171,10 @@
         border-bottom: 0;   
         margin: 0;
     }
-    .achievement div div div:last-of-type article {
-        margin-right: -80px;
-    }
-    .achievement div div div:first-of-type article {
-        margin-left:  -100px;
-    }
+  
     .achievement article {
         border-right: 1px solid #fff;
-        margin-right: -25px;
+       
     }
     .achievement div div div:last-of-type article{
         border-right: 0;
