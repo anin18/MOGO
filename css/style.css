@@ -7,6 +7,9 @@ html {
 img {
     max-width: 100%;
 }
+body {
+    position: relative;
+}
 p {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
@@ -71,6 +74,10 @@ header {
     color:#fff !important;
     margin-bottom: 80px !important;
 }
+/*added jquery*/
+.header-active {
+    background: rgba(224, 33, 33,0.4);
+}
 .navbar li .nav-link{
     text-align:  center;
     border-bottom: 1px dotted #fff;
@@ -78,8 +85,11 @@ header {
 .navbar li:last-of-type {
     border-bottom:none;
 }
-.navbar li.active .nav-link,
-.navbar li:hover .nav-link,
+.navbar-nav .nav-item:first-of-type .nav-link {
+    color:#fff;
+}
+.navbar li a.active,
+.navbar li a:hover,
 .navbar li:hover .fa{
     color:#FCE38A !important;
     border-bottom: 3px solid #FCE38A !important;
