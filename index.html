@@ -11,8 +11,11 @@
         <!-- Bootstrap CSS -->
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
 
+        <!--Custom page css-->
+        <link href="css/animation.css" rel="stylesheet" type="text/css"/>
+        <link href="css/owl.carousel.css" rel="stylesheet" type="text/css"/>
+        <link href="css/jquery.fancybox.min.css" rel="stylesheet" type="text/css"/>
         <!-- theme css-->
-
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
         <link href="css/responsive.css" rel="stylesheet" type="text/css"/>
 
@@ -26,7 +29,131 @@
         <header class="fixed-top">
             <div class="container ">
                 <nav class="navbar navbar-expand-sm navbar-light">
-                    <a class="navbar-brand montFamily text-white" href="#">MoGo</a>
+                    <a class="navbar-brand montFamily animation" data-animation="appear" href="#">MoGo</a>
+
+                    <!--search wrapper starts here-->
+                    <div class="search-wrapper ml-auto order-sm-last">
+                        <span class="fa fa-search search-icon"></span>
+                        <form class="search-form position-absolute animation" data-animation="slideUp" data-delay="0.5s" method="post" action="">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search field" autofocus="" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                <div class="input-group-append">
+                                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div><!--search wrapper ends here-->
+
+                    <!--shopping wrapper starts here-->
+                    <div class="shopping-wrapper order-sm-last">
+                        <span class="fa fa-shopping-cart small-cart-icon"></span>
+                        <!--products-->
+                        <div class="products position-fixed bg-light px-2 pt-2">
+                            <span class="fa fa-close position-absolute"></span>
+                            <div class="products-group-items mb-4">
+                                <div class="products-item-wrapper d-flex">
+                                    <figure class="w-25">
+                                        <img src="https://via.placeholder.com/50x50">
+                                    </figure>
+                                    <div class="product-item-description w-75">
+                                        <h5>Name of Article</h5>
+                                        <p class="mb-0"><i>The article made in the US.</i></p>
+                                        <p>Article price: 25$</p>
+                                    </div>
+                                </div>
+                                 <div class="products-item-wrapper d-flex">
+                                    <figure class="w-25">
+                                        <img src="https://via.placeholder.com/50x50">
+                                    </figure>
+                                    <div class="product-item-description w-75">
+                                        <h5>Name of Article</h5>
+                                        <p class="mb-0"><i>The article made in the US.</i></p>
+                                        <p>Article price: 25$</p>
+                                    </div>
+                                </div>
+                                 <div class="products-item-wrapper d-flex">
+                                    <figure class="w-25">
+                                        <img src="https://via.placeholder.com/50x50">
+                                    </figure>
+                                    <div class="product-item-description w-75">
+                                        <h5>Name of Article</h5>
+                                        <p class="mb-0"><i>The article made in the US.</i></p>
+                                        <p>Article price: 25$</p>
+                                    </div>
+                                </div>
+                                 <div class="products-item-wrapper d-flex">
+                                    <figure class="w-25">
+                                        <img src="https://via.placeholder.com/50x50">
+                                    </figure>
+                                    <div class="product-item-description w-75">
+                                        <h5>Name of Article</h5>
+                                        <p class="mb-0"><i>The article made in the US.</i></p>
+                                        <p>Article price: 25$</p>
+                                    </div>
+                                </div>
+                                <div class="products-item-wrapper d-flex">
+                                    <figure class="w-25">
+                                        <img src="https://via.placeholder.com/50x50">
+                                    </figure>
+                                    <div class="product-item-description w-75">
+                                        <h5>Name of Article</h5>
+                                        <p class="mb-0"><i>The article made in the US.</i></p>
+                                        <p>Article price: 25$</p>
+                                    </div>
+                                </div>
+                                <div class="products-item-wrapper d-flex">
+                                    <figure class="w-25">
+                                        <img src="https://via.placeholder.com/50x50">
+                                    </figure>
+                                    <div class="product-item-description w-75">
+                                        <h5>Name of Article</h5>
+                                        <p class="mb-0"><i>The article made in the US.</i></p>
+                                        <p>Article price: 25$</p>
+                                    </div>
+                                </div>
+                                <div class="products-item-wrapper d-flex">
+                                    <figure class="w-25">
+                                        <img src="https://via.placeholder.com/50x50">
+                                    </figure>
+                                    <div class="product-item-description w-75">
+                                        <h5>Name of Article</h5>
+                                        <p class="mb-0"><i>The article made in the US.</i></p>
+                                        <p>Article price: 25$</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--product counter-->
+                            <div class="products-counter position-absolute">
+                                <form class="add-to-cart" method="post" action="">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <button class="btn btn-outline-secondary q-minus"><span class="fa fa-minus"></span></button>
+                                                    </div>
+                                                    <input type="text" class="form-control quantity" placeholder="" value="1">
+                                                    <div class="input-group-append">
+                                                        <button class="btn btn-outline-secondary q-plus"><span class="fa fa-plus"></span></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <button class="btn" type="submit" name="add-to-cart" value="add"><span class="fa fa-shopping-cart mr-2"></span> ADD TO CART</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div><!--shopping wrapper ends here-->
+
+
+
+
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -48,12 +175,7 @@
                             <li class="nav-item">
                                 <a class="nav-link montFamily text-white" href="#contact">contact</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white display-block fa fa-shopping-cart" href="#"></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white fa fa-search" href="#"></a>
-                            </li>
+
                         </ul>
                     </div>
                 </nav>
@@ -63,11 +185,11 @@
 
         <!--main starts here-->
         <main>
-            <!--  lead section starts here-->
+            <!--  leading section starts here-->
             <section class="leading text-center pt-5" style="background-image: linear-gradient(to bottom, rgba(244, 83, 66, 0.8), rgba(249, 230, 17, 0.8)), url('img/eagle.png');">
                 <div class="container pt-5">
-                    <h2 class="pretitle text-white ">Creative Template</h2>
-                    <h1 class="text-uppercase text-white font-weight-bold display-4 position-relative pb-5">Welcome <br> to MoGo</h1>
+                    <h2 class="pretitle text-white">Creative Template</h2>
+                    <h1 class="text-uppercase text-white font-weight-bold display-4 position-relative pb-5 animation" data-animation="zoom">Welcome <br> to MoGo</h1>
                     <div class="learn mb-5"><a href="#" class="btn text-white text-uppercase px-3 px-sm-4 px-md-5">Learn more</a></div>
                     <div class="row lines text-uppercase py-sm-5 py-md-3">
                         <article class="col-12 col-sm-6 col-md-3  mb-md-0">
@@ -85,7 +207,7 @@
                     </div>
                 </div>
 
-            </section> <!--lead section ends here-->
+            </section> <!--leading section ends here-->
 
             <!-- section story starts here-->
             <section class="story py-5 secFrame" id="about">
@@ -98,8 +220,8 @@
                         ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
                     <div class="row">
-                        <div class="col-12 col-md-4 mb-4">
-                            <figure class="position-relative ">
+                        <div class="col-12 col-md-4 mb-4 animation" data-animation="slideUp" data-delay="0.5s">
+                            <figure class="position-relative">
                                 <img src="img/about-01.jpg" alt="computer"/>
                                 <div class="hover position-absolute">
                                     <div class=" hover-items position-relative">
@@ -109,8 +231,8 @@
                                 </div>
                             </figure>
                         </div>
-                        <div class="col-12 col-md-4 mb-4">
-                            <figure class="position-relative ">
+                        <div class="col-12 col-md-4 mb-4 animation" data-animation="slideUp" data-delay="1s">
+                            <figure class="position-relative">
                                 <img src="img/about-02.jpg" alt="music"/>
                                 <div class="hover position-absolute">
                                     <div class=" hover-items position-relative">
@@ -120,8 +242,8 @@
                                 </div>
                             </figure>
                         </div>
-                        <div class="col-12 col-md-4 mb-4">
-                            <figure class="position-relative ">
+                        <div class="col-12 col-md-4 mb-4 animation" data-animation="slideUp" data-delay="1.5s">
+                            <figure class="position-relative">
                                 <img src="img/about-03.jpg" alt="camera"/>
                                 <div class="hover position-absolute">
                                     <div class=" hover-items position-relative">
@@ -180,7 +302,7 @@
                     <h3 class="title">Amazing Services</h3>
 
                     <div class="row justify-content-center">
-                        <div class="col-12 col-sm-6 col-md-4 mb-4">
+                        <div class="col-12 col-sm-6 col-md-4 mb-4 ">
                             <div class="row">
                                 <div class="col-3">
                                     <aside>
@@ -296,10 +418,10 @@
                     <h6 class="pretitle mb-4">For all devices</h6>
                     <h3 class="title ">Unique design</h3>
                     <div class='photos position-relative'>
-                        <figure class="text-center">
+                        <figure class="text-center animation" data-animation="zoom">
                             <img src="img/tablet.png" alt="tablet"/>
                         </figure>
-                        <figure class="mobile">
+                        <figure class="mobile animation" data-animation="zoom">
                             <img src="img/phone.png" alt="phone"/>
                         </figure>
                     </div>
@@ -311,20 +433,19 @@
                 <div class="container">
                     <h6 class="d-block pretitle mb-4">Service</h6>
                     <h3 class="title">what we do</h3>
-                    <p class="text-center  par_after">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    <p class="text-center  par_after animation" data-animation="slideUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore 
                         magna aliqua. Ut enim ad minim veniam, quis nostrud 
                         exercitation ullamco laboris nisi ut aliquip ex ea commodo
                         consequat.
                     </p>
                     <div class="row">
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-md-6 animation" data-animation="slideRight" data-delay="0.7s">
                             <figure>
                                 <img src="img/what.jpg" alt=""/>
                             </figure>  
                         </div>
-                        <div class="col-12 col-md-6">
-
+                        <div class="col-12 col-md-6 animation" data-animation="slideLeft" data-delay="0.7s">
                             <div class="accordion" id="accordionExample">
                                 <div class="card">
                                     <div class="card-header" id="headingOne">
@@ -396,16 +517,13 @@
             <!--section speech starts here-->
             <section class="speech bg-light-pink py-5">
                 <div class="container position-relative">
-                    <div class="leftAngle position-absolute">
-                        <a href="#" class="fa fa-angle-left"></a>
-                    </div>
-                    <div class="row text-center">
-                        <div class="col-12 col-md-2 mb-4">
+                    <ul class="owl-carousel list-unstyled speech-slider justify-content-center align-content-center">
+                        <li class="ml-4 ml-sm-5">
                             <aside>
                                 <a href="#" class="fa fa-comments-o"></a>
                             </aside>
-                        </div>
-                        <div class="col-12 col-md-8 align-items-center">
+                        </li>
+                        <li>
                             <article>
                                 <p><cite>“Lorem ipsum dolor sit amet, consectetur
                                         adipiscing elit, sed do eiusmod tempor
@@ -415,12 +533,43 @@
                                     </cite>
                                 </p>
                                 <h4 class="pretitleLine float-left">Jon Doe</h4>
-                            </article>
-                        </div>
-                    </div>
-                    <div class="rightAngle position-absolute">
-                        <a href="#" class="fa fa-angle-right"></a>
-                    </div>
+                            </article> 
+                        </li>
+                        <li class="ml-4 ml-sm-5">
+                            <aside>
+                                <a href="#" class="fa fa-comments-o"></a>
+                            </aside>
+                        </li>
+                        <li>
+                            <article>
+                                <p><cite>“Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna
+                                        aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation.”
+                                    </cite>
+                                </p>
+                                <h4 class="pretitleLine float-left">Jon Doe</h4>
+                            </article> 
+                        </li>
+                        <li class="ml-4 ml-sm-5">
+                            <aside>
+                                <a href="#" class="fa fa-comments-o"></a>
+                            </aside>
+                        </li>
+                        <li>
+                            <article>
+                                <p><cite>“Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna
+                                        aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation.”
+                                    </cite>
+                                </p>
+                                <h4 class="pretitleLine float-left">Jon Doe</h4>
+                            </article> 
+                        </li>
+                    </ul>
                 </div>
             </section> <!--section speech ends here-->
 
@@ -603,19 +752,19 @@
             <!--section gallery ends here-->
 
             <!--section joshua starts here-->
+
             <section class="joshua py-5 secFrame">
                 <div class="container position-relative">
-                    <div class="leftAngle position-absolute">
-                        <a href="#" class="fa fa-angle-left"></a>
-                    </div>
-                    <div class="row text-center">
-                        <div class="col-12 col-md-3 mb-4">
-                            <figure>
+
+                    <ul class="owl-carousel list-unstyled joshua-slider clearfix">
+                        <li class="ml-4 ml-sm-5">
+                            <figure class="d-flex justify-content-center">
                                 <img src="img/testimonial.jpg" alt=""/>
-                            </figure>
-                        </div>
-                        <div class="col-12 col-md-8 d-flex align-items-center">
-                            <article>
+                            </figure> 
+                        </li>
+
+                        <li class="">
+                            <article class="">
                                 <p><cite>“Lorem ipsum dolor sit amet, consectetur
                                         adipiscing elit, sed do eiusmod tempor
                                         incididunt ut labore et dolore magna
@@ -625,13 +774,50 @@
                                 </p>
                                 <h4 class="pretitleLine float-left">Joshua Earle</h4>
                             </article>
-                        </div>
-                    </div>
-                    <div class="rightAngle position-absolute">
-                        <a href="#" class="fa fa-angle-right"></a>
-                    </div>
+                        </li>
+
+                        <li class="ml-4 ml-sm-5">
+                            <figure class="d-flex justify-content-center">
+                                <img src="img/testimonial.jpg" alt=""/>
+                            </figure> 
+                        </li>
+
+                        <li class="">
+                            <article class="">
+                                <p><cite>“Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna
+                                        aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation.”
+                                    </cite>
+                                </p>
+                                <h4 class="pretitleLine float-left">Joshua Earle</h4>
+                            </article>
+                        </li>
+                        <li class="ml-4 ml-sm-5">
+                            <figure class="d-flex justify-content-center">
+                                <img src="img/testimonial.jpg" alt=""/>
+                            </figure> 
+                        </li>
+
+                        <li class="">
+                            <article class="">
+                                <p><cite>“Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna
+                                        aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation.”
+                                    </cite>
+                                </p>
+                                <h4 class="pretitleLine float-left">Joshua Earle</h4>
+                            </article>
+                        </li>
+
+                    </ul>
+
                 </div>
             </section> <!--section joshua ends here-->
+
 
             <!--section clients starts here-->
             <section class="clients py-5 secFrame" style="background-image: linear-gradient(to bottom, rgba(256,256,256,0.8),rgba(256,256,256,0.8)), url('img/mountain.png'); background-size:cover; ">
@@ -848,13 +1034,14 @@
                                     <a href="#" class="fa fa-tumblr"></a>
                                 </p>
 
-                                <form method="post" action="">
+                                <form method="get" action="" class="subscribe-form">
 
-                                    <div class="input-group mb-5">
-                                        <input type="text" class="form-control" placeholder="Your Email..." aria-label="Recipient's email" aria-describedby="basic-addon2">
-                                        <div class="input-group-append">
+                                    <div class="input-group form-group mb-5">
+                                        <input type="text" class="form-control" placeholder="Your Email..." autofocus="" aria-label="Recipient's email" aria-describedby="basic-addon2">
+                                        <div class="input-group-append" >
                                             <span class="input-group-text" id="basic-addon2">SUBSCRIBE</span>
                                         </div>
+                                        <div class="error-msg"></div>
                                     </div>
                                 </form>
                             </article>
@@ -973,6 +1160,7 @@
                 <h6>© 2016 MoGo free PSD template by <span>Laaqiq</span></h6>
             </div>
         </footer>
+        <div class="overlay"></div>
         <!--footer ends here-->
 
 
@@ -982,10 +1170,13 @@
         <script src="js/jquery.js" type="text/javascript"></script>
         <script src="js/popper.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
-        
+
         <!--CUSTOM PAGE JS-->
         <script src="js/jquery.waypoints.js" type="text/javascript"></script>
         <script src="js/counterup.js" type="text/javascript"></script>
+        <script src="js/jquery.validate.min.js" type="text/javascript"></script>
+        <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+        <script src="js/jquery.fancybox.min.js" type="text/javascript"></script>
         <!--ALL PAGES JS-->
         <script src="js/main.js" type="text/javascript"></script>
     </body>

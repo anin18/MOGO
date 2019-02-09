@@ -31,6 +31,19 @@
         content:'';
         left:8%;
     }
+     .joshua figure,
+     .speech aside{
+        max-width: 80%;
+        
+    }
+    .joshua article,
+    .speech article{
+        max-width: 100%;
+        
+    }
+    .products {
+        width: 340px;
+    }
 }
 
 
@@ -192,13 +205,18 @@
     }
     .speech h4,
     .joshua h4{
-        margin-left: 120px;
+        margin-left: 150px;
     }
     .speech .pretitleLine:before,
     .joshua .pretitleLine:before{
         content: '';
         top:75%;
         left:12%;
+    }
+    .joshua figure,
+    .speech aside{
+        max-width: 40%;
+        
     }
     .blog .blog-numbers .fa:first-of-type{
         left:0%;
