@@ -51,58 +51,17 @@ $(document).ready(function () {
     });
 
 
-    //FORM VALIDATION
-    /*    $(document).ready(function () {
-     jQuery.validator.addMethod("ContainsAtLeastOneDigit", function (value) {
-     return /^[a-z]+[0-9]/i.test(value);
-     });
-     
-     $(function () {
-     $(".subscribe-form").validate({
-     highlight: function (element) {
-     $(element).closest('.form-group').addClass("has-danger");
-     $(element).addClass("form-control-danger");
-     },
-     unhighlight: function (element) {
-     $(element).closest('.form-group').removeClass('has-danger').addClass('has-success');
-     $(element).removeClass('form-control-danger').addClass('form-control-success');
-     },
-     rules: {
-     
-     email: {
-     required:true,
-     email:true
-     }
-     },
-     messages: {
-     
-     email: {
-     required:"This field is required!",
-     email:"Please, write valid email adress."
-     }
-     },
-     errorElement: 'p',
-     errorPlacement: function (error, element) {
-     error.appendTo($(element).closest('.form-group').find('.error-msg'));
-     }
-     
-     });
-     });
-     });
-     */
-
-
-    //OWL CAROUSEL
+     //OWL CAROUSEL
     if ($('.owl-carousel').length > 0) {
         $('.joshua-slider').owlCarousel({
-            items: 2,
+            items: 1,
             loop: true,
             nav: true,
             dots: false,
             slideBy: 2
         });
         $('.speech-slider').owlCarousel({
-            items: 2,
+            items: 1,
             loop: true,
             nav: true,
             dots: false,

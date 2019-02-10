@@ -3,6 +3,11 @@
     .navbar li .nav-link{
         border-bottom: none !important;
     }
+    .navbar li a.active,
+    .navbar li a:hover,
+    .navbar li:hover .fa{
+        border-bottom: none!important;
+    }
     div.collapse {
         background: none !important;
     }
@@ -31,24 +36,50 @@
         content:'';
         left:8%;
     }
-     .joshua figure,
-     .speech aside{
-        max-width: 80%;
-        
+    .joshua figure,
+    .speech aside{
+       width: 70%;
     }
-    .joshua article,
-    .speech article{
-        max-width: 100%;
-        
-    }
+    
     .products {
         width: 340px;
+    }
+     .speech .pretitleLine,
+     .joshua .pretitleLine {
+        top:70%;
     }
 }
 
 
 
 @media(min-width:768px) {
+
+    .bottom-overline {
+        display: inline-block;
+        vertical-align: middle;
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        position: relative;
+        overflow: hidden;
+    }
+    .bottom-overline:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        right: 100%;
+        bottom: 0;
+        background: #FCE38A;
+        height: 2px;
+        transition-property: right;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-out;
+    }
+    .bottom-overline:hover:before, 
+    .bottom-overline:focus:before, 
+    .bottom-overline:active:before {
+        right: 0;
+    }
     .navbar li{
         padding: 0 8px;
     }
@@ -106,17 +137,11 @@
         font-size: 1.2rem;
         text-align: left;
     }
-    .speech h4{
-        margin-left: 110px;
-    }
 
-    .pretitleLine:before{
-        content: '';
-        top:75%;
-        left:15%;
-    }
+    .speech aside,
     .joshua figure {
         font-size: 4rem;
+         width:40%;
     }
     .blog .blog-numbers .fa:first-of-type{
         left:0%;
@@ -184,10 +209,10 @@
         border-bottom: 0;   
         margin: 0;
     }
-  
+
     .achievement article {
         border-right: 1px solid #fff;
-       
+
     }
     .achievement div div div:last-of-type article{
         border-right: 0;
@@ -203,21 +228,7 @@
     .joshua article p{
         font-size: 1.6rem;
     }
-    .speech h4,
-    .joshua h4{
-        margin-left: 150px;
-    }
-    .speech .pretitleLine:before,
-    .joshua .pretitleLine:before{
-        content: '';
-        top:75%;
-        left:12%;
-    }
-    .joshua figure,
-    .speech aside{
-        max-width: 40%;
-        
-    }
+ 
     .blog .blog-numbers .fa:first-of-type{
         left:0%;
     }
@@ -242,11 +253,7 @@
     .story .hover h6 {
         font-size: 1.7rem;
     }
-    .joshua .pretitleLine:before{
-        content: '';
-        top:70%;
-        left:10%;
-    }
+  
     .blog article p{
         font-size: 14px;
     }

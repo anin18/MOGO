@@ -5,7 +5,7 @@ html {
     font-size: 14px;
 }
 img {
-    max-width: 100%;
+    max-width: 100% !important;
 }
 body {
     position: relative;
@@ -125,7 +125,9 @@ a.navbar-brand:hover {
 .navbar-light .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(256,256, 256)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
-
+.navbar-light .navbar-toggler:hover {
+    border:1px solid  #000 !important;
+}
 .search-wrapper .search-icon,
 .shopping-wrapper .small-cart-icon {
     width: 35px;
@@ -162,7 +164,7 @@ a.navbar-brand:hover {
     font-size: 24px;
     font-weight: bold;
     color:#fff;
-    background: #f29129;
+    background: #000;
     width:40px;
     height: 40px;
     text-align: center;
@@ -336,8 +338,13 @@ a.navbar-brand:hover {
     background-color: #fff;
     margin-bottom: 10pxb!important;
 }
-/*SPEECH SECTION*/
-
+/*SPEECH  and JOSHUA SECTION*/
+.speech aside{
+    width:40%;
+}
+.joshua figure {
+        width:150%;
+    }
 
 .speech aside a {
     text-decoration: none;
@@ -353,18 +360,6 @@ a.navbar-brand:hover {
     padding: 0 30px;
 }
 
-.speech .pretitleLine:before,
-.joshua .pretitleLine:before{
-    content: '';
-    display: block;
-    height: 3px;
-    background-color:#F38181;
-    width:50px;
-    position: absolute;
-    top:95%;
-    left:0%;
-
-}
 .joshua .owl-nav,
 .speech .owl-nav{
     font-size: 2.5rem;
@@ -372,17 +367,16 @@ a.navbar-brand:hover {
     .joshua .owl-nav .owl-prev,
     .speech .owl-nav .owl-prev {
         position: absolute;
-        top:50%;
+        top:30%;
         left: 0%;
     }
     .joshua .owl-nav .owl-next,
     .speech .owl-nav .owl-next{
         position: absolute;
-        top:50%;
+        top:30%;
         right: 0%;
     }
-    .joshua figure,
-    .speech aside{
+    .joshua figure{
         max-width: 90%;
     }
 /*TEAM SECTION*/
@@ -636,4 +630,8 @@ footer span {
    left:0;
    display: none;
    z-index: 1;
+}
+.share-buttons {
+    top:0;
+    right: 7%;
 }
